@@ -15,9 +15,6 @@
 		F8FD4F671E13794A00252324 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FD4F5F1E13794A00252324 /* main.m */; };
 		F8FD4F681E13794A00252324 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FD4F611E13794A00252324 /* ViewController.m */; };
 		F8FD4F6B1E137A2000252324 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FD4F6A1E137A2000252324 /* TestVC.m */; };
-		F8FD4F6F1E137A2F00252324 /* req.json in Resources */ = {isa = PBXBuildFile; fileRef = F8FD4F6C1E137A2E00252324 /* req.json */; };
-		F8FD4F701E137A2F00252324 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = F8FD4F6D1E137A2F00252324 /* test.json */; };
-		F8FD4F711E137A2F00252324 /* Test.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8FD4F6E1E137A2F00252324 /* Test.plist */; };
 		F8FD4FEF1E137A4F00252324 /* YHFormCellTypeConst.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FD4F761E137A4F00252324 /* YHFormCellTypeConst.m */; };
 		F8FD4FF01E137A4F00252324 /* YHFormColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FD4F781E137A4F00252324 /* YHFormColor.m */; };
 		F8FD4FF11E137A4F00252324 /* YHFormConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FD4F7A1E137A4F00252324 /* YHFormConfig.m */; };
@@ -72,6 +69,11 @@
 		F8FD50221E137A4F00252324 /* YHFormSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FD4FEB1E137A4F00252324 /* YHFormSectionHeaderView.m */; };
 		F8FD50231E137A4F00252324 /* YHFormTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FD4FED1E137A4F00252324 /* YHFormTableView.m */; };
 		F8FD50251E137A6400252324 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F8FD50241E137A6400252324 /* Podfile */; };
+		F8FD502A1E1386BE00252324 /* req.json in Resources */ = {isa = PBXBuildFile; fileRef = F8FD50271E1386BE00252324 /* req.json */; };
+		F8FD502B1E1386BE00252324 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = F8FD50281E1386BE00252324 /* test.json */; };
+		F8FD502C1E1386BE00252324 /* Test.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8FD50291E1386BE00252324 /* Test.plist */; };
+		F8FD502F1E13873600252324 /* TestJsonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FD502E1E13873600252324 /* TestJsonVC.m */; };
+		F8FD50311E1387EC00252324 /* TestJsonVC.json in Resources */ = {isa = PBXBuildFile; fileRef = F8FD50301E1387EC00252324 /* TestJsonVC.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,9 +91,6 @@
 		F8FD4F611E13794A00252324 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F8FD4F691E137A2000252324 /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
 		F8FD4F6A1E137A2000252324 /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
-		F8FD4F6C1E137A2E00252324 /* req.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = req.json; sourceTree = "<group>"; };
-		F8FD4F6D1E137A2F00252324 /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
-		F8FD4F6E1E137A2F00252324 /* Test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Test.plist; sourceTree = "<group>"; };
 		F8FD4F731E137A4F00252324 /* YHForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHForm.h; sourceTree = "<group>"; };
 		F8FD4F751E137A4F00252324 /* YHFormCellTypeConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHFormCellTypeConst.h; sourceTree = "<group>"; };
 		F8FD4F761E137A4F00252324 /* YHFormCellTypeConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHFormCellTypeConst.m; sourceTree = "<group>"; };
@@ -204,6 +203,12 @@
 		F8FD4FED1E137A4F00252324 /* YHFormTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHFormTableView.m; sourceTree = "<group>"; };
 		F8FD4FEE1E137A4F00252324 /* YHFormView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHFormView.h; sourceTree = "<group>"; };
 		F8FD50241E137A6400252324 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		F8FD50271E1386BE00252324 /* req.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = req.json; sourceTree = "<group>"; };
+		F8FD50281E1386BE00252324 /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		F8FD50291E1386BE00252324 /* Test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Test.plist; sourceTree = "<group>"; };
+		F8FD502D1E13873600252324 /* TestJsonVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestJsonVC.h; sourceTree = "<group>"; };
+		F8FD502E1E13873600252324 /* TestJsonVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestJsonVC.m; sourceTree = "<group>"; };
+		F8FD50301E1387EC00252324 /* TestJsonVC.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestJsonVC.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,6 +263,7 @@
 		F8FD4F561E13794A00252324 /* YHFormExample */ = {
 			isa = PBXGroup;
 			children = (
+				F8FD50261E13868000252324 /* Resource */,
 				F8FD4F571E13794A00252324 /* AppDelegate.h */,
 				F8FD4F581E13794A00252324 /* AppDelegate.m */,
 				F8FD4F591E13794A00252324 /* Assets.xcassets */,
@@ -266,11 +272,10 @@
 				F8FD4F5F1E13794A00252324 /* main.m */,
 				F8FD4F691E137A2000252324 /* TestVC.h */,
 				F8FD4F6A1E137A2000252324 /* TestVC.m */,
+				F8FD502D1E13873600252324 /* TestJsonVC.h */,
+				F8FD502E1E13873600252324 /* TestJsonVC.m */,
 				F8FD4F601E13794A00252324 /* ViewController.h */,
 				F8FD4F611E13794A00252324 /* ViewController.m */,
-				F8FD4F6C1E137A2E00252324 /* req.json */,
-				F8FD4F6D1E137A2F00252324 /* test.json */,
-				F8FD4F6E1E137A2F00252324 /* Test.plist */,
 			);
 			path = YHFormExample;
 			sourceTree = "<group>";
@@ -497,6 +502,17 @@
 			path = YHFormSectionHeaderView;
 			sourceTree = "<group>";
 		};
+		F8FD50261E13868000252324 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F8FD50301E1387EC00252324 /* TestJsonVC.json */,
+				F8FD50271E1386BE00252324 /* req.json */,
+				F8FD50281E1386BE00252324 /* test.json */,
+				F8FD50291E1386BE00252324 /* Test.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -560,12 +576,13 @@
 			files = (
 				F8FD4F661E13794A00252324 /* Info.plist in Resources */,
 				F8FD50021E137A4F00252324 /* YHForm.bundle in Resources */,
+				F8FD50311E1387EC00252324 /* TestJsonVC.json in Resources */,
+				F8FD502A1E1386BE00252324 /* req.json in Resources */,
 				F8FD4F631E13794A00252324 /* Assets.xcassets in Resources */,
-				F8FD4F711E137A2F00252324 /* Test.plist in Resources */,
-				F8FD4F6F1E137A2F00252324 /* req.json in Resources */,
+				F8FD502C1E1386BE00252324 /* Test.plist in Resources */,
 				F8FD50251E137A6400252324 /* Podfile in Resources */,
+				F8FD502B1E1386BE00252324 /* test.json in Resources */,
 				F8FD4F641E13794A00252324 /* LaunchScreen.storyboard in Resources */,
-				F8FD4F701E137A2F00252324 /* test.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -638,6 +655,7 @@
 				F8FD50211E137A4F00252324 /* YHFormSectionFooterView.m in Sources */,
 				F8FD50231E137A4F00252324 /* YHFormTableView.m in Sources */,
 				F8FD4FFA1E137A4F00252324 /* YHFormRow.m in Sources */,
+				F8FD502F1E13873600252324 /* TestJsonVC.m in Sources */,
 				F8FD4FF31E137A4F00252324 /* YHFormUI.m in Sources */,
 				F8FD501B1E137A4F00252324 /* YHFormPickerView.m in Sources */,
 				F8FD4FFE1E137A4F00252324 /* YHFormSelector.m in Sources */,

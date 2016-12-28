@@ -1,0 +1,136 @@
+{
+    "vcTitle": "个人信息",
+    "formTables": [
+                   {
+                   "tableViewStyle": 1,
+                   "buttonTitle": "保存",
+                   "formSections": [
+                                    {
+                                    "formRows": [
+                                                 {
+                                                 "rowType": "YHFormTitleDetailCell",
+                                                 "title": "姓　　名",
+                                                 "key" : "custName"
+                                                 },
+                                                 {
+                                                 "rowType": "YHFormTitleDetailCell",
+                                                 "title": "身份证号",
+                                                 "key" : "idNum"
+                                                 },
+                                                 {
+                                                 "rowType": "YHFormTitleDetailCell",
+                                                 "title": "手机号码",
+                                                 "key" : "mobile"
+                                                 },
+                                                 {
+                                                 "rowType": "YHFormSelectorCell",
+                                                 "title": "婚姻状况",
+                                                 "key":"marriageStatus"
+                                                 },
+                                                 {
+                                                 "rowType": "YHFormSelectorCell",
+                                                 "title": "教育程度",
+                                                 "key":"education"
+                                                 },
+                                                 {
+                                                 "rowType": "YHFormIDCardValidDateCell",
+                                                 "title": "身份证有　效　　期",
+                                                 "key" : ["validStartDate", "validEndDate"]
+                                                 },
+                                                 {
+                                                 "rowType": "YHFormAddressPickerCell",
+                                                 "title": "身份证地址",
+                                                 "key" : ["idProvince", "idCity", "idDistrict"]
+                                                 },
+                                                 {
+                                                 "rowType": "YHFormTextCell",
+                                                 "title": "详细地址",
+                                                 "maxTextLength" : 100,
+                                                 "key":"idDetails"
+                                                 },
+                                                 {
+                                                 "rowType": "YHFormAddressPickerCell",
+                                                 "title": "住宅地址",
+                                                 "key" : ["homeProvince", "homeCity", "homeDistrict"]
+                                                 },
+                                                 {
+                                                 "rowType": "YHFormTextCell",
+                                                 "title": "详细地址",
+                                                 "maxTextLength" : 100,
+                                                 "key":"homeDetails"
+                                                 },
+                                                 {
+                                                 "rowType": "YHFormTitleTextCell",
+                                                 "title": "住宅电话",
+                                                 "keyboardType": -3,
+                                                 "required" : 0,
+                                                 "placeholder" : "示例:8888-88888888",
+                                                 "checkValidType" : 5,
+                                                 "key":"mobile1"
+                                                 },
+                                                 {
+                                                 "rowType": "YHFormSelectorCell",
+                                                 "title": "住宅性质",
+                                                 "key":"homeType"
+                                                 },
+                                                 {
+                                                 "rowType" : "YHFormSwitchCell",
+                                                 "title" : "当前社保　供款记录",
+                                                 "switchReverse" : 1,
+                                                 "key" : "hasSocial",
+                                                 "value" : 1
+                                                 },
+                                                 {
+                                                 "rowType": "YHFormTitleTextCell",
+                                                 "title": "社保号",
+                                                 "keyboardType": 1,
+                                                 "required" : 0,
+                                                 "maxTextLength" : 20,
+                                                 "key":"socialId"
+                                                 },
+                                                 {
+                                                 "rowType": "YHFormSelectorCell",
+                                                 "title": "与谁居住",
+                                                 "maxTextLength" : 100,
+                                                 "key":"liveWith"
+                                                 },
+                                                 {
+                                                 "rowType": "YHFormTitleTextCell",
+                                                 "title": "总人数",
+                                                 "keyboardType": 4,
+                                                 "placeholder" : "请输入居住总人数",
+                                                 "suffixText" : "人",
+                                                 "minNum" : 1,
+                                                 "maxNum" : 10,
+                                                 "key":"liveWithNum"
+                                                 },
+                                                 {
+                                                 "rowType": "YHFormTitleTextCell",
+                                                 "title": "电子邮箱",
+                                                 "keyboardType": 7,
+                                                 "required" : 0,
+                                                 "maxTextLength" : 100,
+                                                 "key":"email"
+                                                 },
+                                                 {
+                                                 "rowType": "YHFormTitleTextCell",
+                                                 "title": "QQ号码",
+                                                 "keyboardType": 2,
+                                                 "required" : 0,
+                                                 "maxTextLength" : 20,
+                                                 "key":"qq"
+                                                 },
+                                                 {
+                                                 "rowType": "YHFormTitleTextCell",
+                                                 "title": "微信号码",
+                                                 "keyboardType": 1,
+                                                 "required" : 0,
+                                                 "maxTextLength" : 100,
+                                                 "key":"weChat"
+                                                 }
+                                                 ]
+                                    }
+                                    ]
+                   }
+                   ]
+}
