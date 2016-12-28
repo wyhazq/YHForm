@@ -1,0 +1,47 @@
+{
+    "title" : "表单",
+    "formTables": [
+                   {
+                   "tableViewStyle" : 1,
+                   "formSections": [
+                                    {
+                                    "sectionHeaderTitle" : "个人信息",
+                                    "formRows": [
+                                                 {
+                                                 "rowType" : "YHFormCell",
+                                                 "title": "姓名"
+                                                 },
+                                                 {
+                                                 "rowType" : "YHFormCell",
+                                                 "title": "性别"
+                                                 },
+                                                 {
+                                                 "rowType" : "YHFormCell",
+                                                 "title": "年龄"
+                                                 }
+                                                 ]
+                                    }
+                                    ]
+                   },
+                   {
+                   "formSections": [
+                                    {
+                                    "formRows": [
+                                                 {
+                                                 "rowType" : "YHFormCell",
+                                                 "title": "姓名"
+                                                 },
+                                                 {
+                                                 "rowType" : "YHFormCell",
+                                                 "title": "性别"
+                                                 },
+                                                 {
+                                                 "rowType" : "YHFormCell",
+                                                 "title": "年龄"
+                                                 }
+                                                 ]
+                                    }
+                                    ]
+                   }
+                   ]
+}
